@@ -6,6 +6,7 @@ class App extends Component {
   state = {
     submitedSearchQuery: '',
   }
+
   
   handleFormSubmit = submitedSearchQuery => {
     if(submitedSearchQuery !== this.state.submitedSearchQuery) this.setState({ submitedSearchQuery });
